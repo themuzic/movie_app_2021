@@ -5,8 +5,8 @@ import "./Detail.css";
 class Detail extends React.Component{
   componentDidMount(){
     const{ location, history } = this.props;
-    console.log(location.state);
-    console.log(history);
+    // console.log(location.state);
+    // console.log(history);
     if(location.state === undefined){
       history.push("/");
     }
